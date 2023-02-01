@@ -4,5 +4,8 @@ Rails.application.routes.draw do
 
   # dashboard
   get "/dashboard" => "accounts#index"
+
+  resources :posts, only: [:new, :create, :show]
+
   root to: "public#homepage"
 end

@@ -1,5 +1,6 @@
 <div class="container">
   <div class="row">
+
     <div class="col-8">
       <% @posts.each do |post| %>
         <div class="insta-post">
@@ -9,9 +10,14 @@
           </div>
 
           <%= image_tag post.image.url, class: "img img-fluid" %>
+          
+          <div class="post-details">
+            <%= simple_format post.description %>
+          </div>
         </div>
       <% end %>
     </div>
+
     <div class="col-4">
       <div class="account-summary">
           <p>

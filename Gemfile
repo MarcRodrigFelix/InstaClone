@@ -8,7 +8,7 @@ gem 'rails', '~> 6.1.5'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3', '~> 1.4'
 
-
+gem 'font-awesome-rails'
 
 # postgres database
 gem 'pg', '~> 1.4', '>= 1.4.5'

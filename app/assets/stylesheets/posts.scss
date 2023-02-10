@@ -1,21 +1,29 @@
 .insta-post {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .post-meta {
-    background: #fff;
-    text-align: left;
-    font-weight: bold;
-    padding: 10px;
-    border: 1px solid #999;
+  background: #fff;
+  text-align: left;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #999;
 
-    img {
-        margin-right: 10px;
-    }
+  img {
+    margin-right: 10px;
+  }
 }
 
 .post-details {
-    background: #fff;
-    padding: 15px;
-    border: 1px solid #ddd;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.post-actions {
+  margin-bottom: 10px;
+  i {
+    margin-right: 10px;
+    color: #ddd;
+  }
 }

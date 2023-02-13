@@ -25,5 +25,15 @@
   i {
     margin-right: 10px;
     color: #ddd;
+    cursor: pointer;
   }
+
+  i:hover {
+    color: #999;
+  }
+
+  i.active {
+    color: #555;
+  }
+
 }

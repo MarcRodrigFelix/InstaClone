@@ -1,13 +1,13 @@
 import $ from "jquery";
 
 
-$(document).ready(function() {
+
 
     $(function(){
         // jquery loaded
         $(".post-like").on("click", function(){
             var post_id = $(this).data("id");
-
+          // SEND GET REQUEST TO POST/LIKE/:POST_ID
            $.ajax({
                 url: "/post/like/"+post_id,
                 method: "GET",
@@ -16,5 +16,6 @@ $(document).ready(function() {
             })
         });
     });
-    
-})
+
+// $(document).ready(function() {
+// })

@@ -9,7 +9,7 @@ class Post < ApplicationRecord
     scope :active, -> { where active: true }
 
     def total_likes
-        3
+        0
     end
 
     private

@@ -1,0 +1,5 @@
+<% @follower_suggestions.each do |account| %>
+    <div class="recommended-follower">
+        <%= link_to image_tag(account.image.thumb.url, class: "img-circle"), profile_path(account.username) %>
+    </div>
+<% end %>

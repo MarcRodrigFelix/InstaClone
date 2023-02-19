@@ -37,7 +37,7 @@
   }
 
   i.active {
-    color: #555;
+    color: #ff0000;
   }
 
 }
@@ -50,4 +50,37 @@
 
 .post-comment {
   box-shadow: none !important;
+}
+
+.comments-feed{
+  height: 300px;
+  overflow: scroll;
+}
+
+.post-details .post-actions {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+// HIDE SCROLL BAR
+
+.comments-feed::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.comments-feed::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.comments-feed::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.comments-feed::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
